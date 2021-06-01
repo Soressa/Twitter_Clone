@@ -1,0 +1,37 @@
+{% extends "base.html" %} 
+{% block content %}
+{% load static %}
+{% load cloudinary %}
+<section class="content">
+    <section class="tweet_form">
+        <form method="POST" enctype="multipart/form-data">
+            {% csrf_token %}
+            <input type="text" name="name" placeholder="Name" required>
+            <textarea name="body" placeholder="Say something" required></textarea>
+            <input class="form-control form-control-sm" name="image" type="file">
+            <input type="submit" value="Tweet"/>
+        </form> 
+    </section>
+    <section class="tweets">
+        <ul>
+            {% for tweet in tweets %} 
+            <li>
+               <div class="logo">
+                   <img src="{% static 'img/tourist.png' %}"/>
+               </div>
+               <div class="name_body">
+                   <div class="name">{{ tweet.name }}</div>
+                   <div class="datetime">{{tweet.created_at }}</div>
+                   <p>{{ tweet.body }}</p>
+                    <div class="bodyImage">
+                        <img src="{{tweet.image.url}}" style="width: 150px;">
+                    </div>
+                   <a href="/delete/{{ tweet.id }}/">delete</a>
+                   <a href="/update/{{ tweet.id }}/">update</a>
+               </div>
+            </li>
+            {% endfor %} 
+        </ul>
+    </section>
+</section>
+{% endblock %}
