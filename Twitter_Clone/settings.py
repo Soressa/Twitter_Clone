@@ -27,7 +27,7 @@ BASE_DIR = Path(__file__).resolve(strict=True).parent.parent
 SECRET_KEY = 'b%hxb6o_ej*4wp2h9op(hua2qyw&_c9%$@9*@y2815mjlaxxe5'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = ['agile-cove-87003.herokuapp.com', '127.0.0.1']
 
