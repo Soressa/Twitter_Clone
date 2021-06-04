@@ -23,7 +23,7 @@ body{
 tweet
 *****************/
 
-.tweet_form .my-icon {
+.tweet_form {
     float: left;
     padding: 20px 40px;
     border-bottom: 1px solid #ccc;
