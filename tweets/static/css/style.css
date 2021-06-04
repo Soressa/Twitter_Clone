@@ -12,7 +12,7 @@ body{
     max-width: 600px;
     justify-content: center;
     display: flex;
-    padding: 0;
+    padding: 1px;
     height: 100%;
     margin: 0 auto;
     border-left: 1px solid #ccc;
@@ -27,11 +27,6 @@ tweet
     float: left;
     padding: 20px 40px;
     border-bottom: 1px solid #ccc;
-}
-
-.input-area {
-    display: flex;
-    padding: 10px;
 }
 
 .tweet_form .input-area input[type=text] {
