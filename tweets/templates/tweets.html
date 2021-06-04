@@ -4,11 +4,12 @@
 {% load cloudinary %}
 <section class="content">
     <section class="tweet_form">
-        <form method="POST" enctype="multipart/form-data">
+        <form action="/" method="POST" enctype="multipart/form-data">
             {% csrf_token %}
             <input type="text" name="name" placeholder="Name" required>
             <textarea name="body" placeholder="Say something" required></textarea>
             <input class="form-control form-control-sm" name="image" type="file">
+            <input class="mb-0"/>
             <input type="submit" value="Tweet"/>
         </form> 
     </section>
