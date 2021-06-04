@@ -49,15 +49,6 @@ tweet
     outline: none;
 }
 
-.bottom-area {
-    border-radius: 3px;
-    padding: 4px 5px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    border-top: 1px solid #ebeef0;
-    padding-top: 10px;
-}
 
 .bottom-area .btn {
     margin-top: 8px;
