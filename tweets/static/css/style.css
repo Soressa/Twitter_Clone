@@ -29,16 +29,6 @@ tweet
     border-bottom: 1px solid #ccc;
 }
 
-.tweet_form .input-area {
-    border-radius: 4px;
-    background-color: #fff1f1;
-    width: 100%;
-    margin-bottom: 10px;
-    padding: 10px;
-    border: 0px;
-    outline: none;
-}
-
 .tweet_form textarea {
     border: none;
     width: 100%;
