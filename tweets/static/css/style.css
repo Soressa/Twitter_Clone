@@ -64,13 +64,6 @@ tweet
     padding-top: 10px;
 }
 
-.bottom-area .mb-0 .form-control {
-    background-color: #fff1f1;
-    border: 1px solid #dde0e2;
-    color: grey;
-    margin-bottom: 10px;
-}
-
 .bottom-area .btn {
     margin-top: 8px;
     background-color: rgb(29, 161, 242);
