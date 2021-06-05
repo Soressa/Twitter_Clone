@@ -24,9 +24,13 @@ tweet
 *****************/
 
 .tweet_form {
-    float: left;
     padding: 20px 40px;
     border-bottom: 2px solid #ccc;
+}
+
+.tweet_form input {
+    width: 70%;
+    margin-bottom: 10px;
 }
 
 .tweet_form textarea {
