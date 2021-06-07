@@ -26,6 +26,9 @@ tweet
 .tweet_form {
     padding: 20px 40px;
     border-bottom: 2px solid #ccc;
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
 }
 
 .tweet_form input {
