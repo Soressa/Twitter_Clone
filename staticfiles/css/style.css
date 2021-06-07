@@ -1,0 +1,88 @@
+/*
+common
+*****************/
+
+html,
+body{
+    height: 100%;
+    font-family: sans-serif;
+}
+
+.content {
+    max-width: 600px;
+    justify-content: center;
+    display: flex;
+    padding: 1px;
+    height: 100%;
+    margin: 0 auto;
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+}
+
+/*
+tweet
+*****************/
+
+.tweet_form {
+    padding: 20px 40px;
+    border-bottom: 2px solid #ccc;
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.tweet_form input {
+    width: 70%;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+.tweet_form textarea {
+    border: 1px solid #ccc;
+    width: 70%;
+    height: 100px;
+    margin: 10px;
+    padding: 10px;
+}
+
+.tweets ul {
+    padding: 0;
+}
+
+.tweets li {
+    display: flex;
+    border-bottom: 1px solid #ccc;
+    padding: 17px;
+}
+
+.tweets li .logo {
+    flex-basis: 15%;
+}
+
+.tweets li .logo img {
+    width: 60%;
+    height: 50%;
+}
+
+.tweets li .name_body {
+    flex-basis: 85%;
+}
+
+.tweets li .name_body .name {
+    font-weight: bold;
+}
+
+.tweets li .name_body .datetime {
+    color: gray;
+}
+
+@media screen and (max_width:400px) {
+    .tweets li .name_body .name {
+        font-size: 20px;
+    }
+}
+
+.tweets li body_image {
+    flex-basis: 40%;
+}
