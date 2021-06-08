@@ -3,6 +3,10 @@
 {% load cloudinary %}
 {% block content %}
 <section class="content">
+    <section class="main-header">
+        <img src="{% static 'img/techis-logo(1).png' %}" width="70" height="70">
+        <h1>Twitter Clone</h1>
+    </section>
     <section class="tweet_form">
         <form action="/" method="POST" enctype="multipart/form-data">
             {% csrf_token %}
