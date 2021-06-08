@@ -30,6 +30,16 @@ tweet
     margin: 0 auto;
 }
 
+.button-area {
+    border-radius: 3px;
+    padding: 4px 5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border-top: 1px solid #ebeef0;
+    padding-top: 10px;  
+}
+
 .tweet_form input {
     width: 70%;
     margin-bottom: 10px;

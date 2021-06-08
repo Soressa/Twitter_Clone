@@ -10,7 +10,7 @@
             <textarea name="body" placeholder="Say something" required></textarea>
             <input class="form-control form-control-sm" name="image" type="file">
             <section class="mb-0">
-            <input class="input input-primary" type="submit" value="Tweet"/>
+            <button class="input input-primary" type="submit">Tweet</button>
             </section>
         </form> 
     </section>
@@ -21,7 +21,7 @@
             <li>
                <div class="logo">
                    <a href="#"></a>
-                       <img src="{% static 'img/tourist.png' %}"/>
+                       <img src="{% static 'img/tourist.png' %}" width="70" height="70"/>
                    </a>
                 </div>
                <div class="name_body">
@@ -29,7 +29,7 @@
                    <div class="datetime">{{tweet.created_at }}</div>
                    <p>{{ tweet.body }}</p>
                     <div class="bodyImage">
-                        <img src="{{tweet.image.url}}" style="width: 150px;">
+                        <img src="{{tweet.image.url}}" style="width: 100px;" height="100">
                     </div>
                    <a href="/delete/{{ tweet.id }}/">delete</a>
                    <a href="/update/{{ tweet.id }}/">update</a>
