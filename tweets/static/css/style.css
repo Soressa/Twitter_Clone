@@ -30,6 +30,7 @@ tweet
     color: darkgreen;
     padding-left: 40px;
     text-align: center;
+    justify-content: center;
     
 }
 
@@ -37,7 +38,7 @@ tweet
     padding: 5px;
     border-bottom: 1px solid rgb(235, 238, 240);
     display: flex;
-    justify-content: left;
+    justify-content: center;
     align-items: center;
 }
 
