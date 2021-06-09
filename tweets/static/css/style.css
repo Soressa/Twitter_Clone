@@ -84,11 +84,12 @@ tweet
 }
 
 .tweet_form textarea {
-    border: 1px solid #ccc;
+    color: lightblue;
     width: 70%;
     height: 100px;
     margin: 10px;
     padding: 10px;
+    border: none;
 }
 
 .tweets ul {
