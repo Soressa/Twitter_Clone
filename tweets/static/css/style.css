@@ -76,10 +76,10 @@ tweet
 }
 
 .ditch {
-    background-color: #fff1f1;
+    background-color: hsl(251, 89%, 50%);
     height: 20px;
-    border-top: 1px solid rgb(235, 238, 240);
-    border-bottom: 1px solid rgb(235, 238, 240);
+    border-top: 1px solid rgb(17, 231, 99);
+    border-bottom: 1px solid rgb(231, 40, 129);
 }
 
 .tweet_form input {
