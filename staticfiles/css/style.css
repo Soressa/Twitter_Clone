@@ -38,7 +38,7 @@ tweet
     padding: 5px;
     border-bottom: 1px solid rgb(235, 238, 240);
     display: flex;
-    justify-content: center;
+    justify-content: left;
     align-items: center;
 }
 
