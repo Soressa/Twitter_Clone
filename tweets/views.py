@@ -31,13 +31,13 @@ def index(request):
     # Show
     return render(request, 'tweets.html', {'tweets': tweets})
 
-# /// DELETE
+# /// DELETEgi
 
 def delete(request, tweets_id):
     # find post
     tweets = Tweets.objects.get(id=tweets_id)
     tweets.delete()
-    return HttpResponse('/')
+    return HttpResponseRedirect('/')
 
 # /// UPDATE
 
