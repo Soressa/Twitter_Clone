@@ -35,12 +35,8 @@
                     <div class="bodyImage">
                         <img src="{{tweet.image.url}}" style="width: 100px;" height="100">
                     </div>
-                    <a href="#/"><img src="{% static 'img/icon-small-menu.svg' %}" class="small-menu js-popover">
-                    data-toggler="popover"
-                    data-container="body"
-                    data-placement="right"
-                    data-content="<a href='/delete/{{tweet.id}}'>Delete</a><br><a href='/update/{{tweet.id}}'>Update</a>"
-                    data-bs-html="true"></a>
+                    <a href="/delete/{{ tweet.id }}/">delete</a>
+                   <a href="/update/{{ tweet.id }}/">update</a>
                </div>
             </li>
             {% endfor %} 
