@@ -50,6 +50,12 @@ tweet
     margin: 0 auto;
 }
 
+.tweet_form input text {
+    display: flex;
+    border: none;
+    color: lightseagreen;
+}
+
 .button-area {
     border-radius: 3px;
     padding: 4px 5px;
