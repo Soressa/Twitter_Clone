@@ -108,9 +108,6 @@ tweet
     display: flex;
     border-bottom: 1px solid #ccc;
     padding: 17px;
-    border-top: 1px solid #ccc;
-    border-left: 1px solid #ccc;
-    border-right: 1px solid #ccc;
 }
 
 .tweets li .logo {
