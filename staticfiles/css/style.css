@@ -22,27 +22,80 @@ body{
 tweet
 *****************/
 
+.main-header h1 {
+    font-size: 20px;
+    line-height: 20px;
+    margin-bottom: 0;
+    font-weight: bold;
+    color: darkgreen;
+    padding-left: 40px;
+    text-align: center;
+    justify-content: center;
+    
+}
+
+.main-header {
+    padding: 5px;
+    border-bottom: 1px solid rgb(235, 238, 240);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .tweet_form {
     padding: 20px 40px;
-    border-bottom: 2px solid #ccc;
+    border: none;
     text-align: center;
-    width: 50%;
+    width: 80%;
     margin: 0 auto;
+}
+
+.tweet_form input text {
+    display: flex;
+    border: none;
+    color: lightseagreen;
+}
+
+.button-area {
+    border-radius: 3px;
+    padding: 4px 5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border-top: 1px solid #ebeef0;
+    padding-top: 10px;
+    color: aqua; 
+    text-align: right; 
+}
+
+.bottom-area .mb-0 .form-control {
+    background-color: #fff1f1;
+    border: 1px solid #dde0e2;
+    color: grey;
+    margin-bottom: 10px;
+}
+
+.ditch {
+    background-color: hsl(251, 89%, 50%);
+    height: 20px;
+    border-top: 1px solid rgb(17, 231, 99);
+    border-bottom: 1px solid rgb(231, 40, 129);
 }
 
 .tweet_form input {
     width: 70%;
     margin-bottom: 10px;
     padding: 10px;
-    border: 1px solid #ccc;
+    border: 1px solid #b0e0e6;
 }
 
 .tweet_form textarea {
-    border: 1px solid #ccc;
+    color: lightblue;
     width: 70%;
     height: 100px;
     margin: 10px;
     padding: 10px;
+    border: none;
 }
 
 .tweets ul {
@@ -61,7 +114,7 @@ tweet
 
 .tweets li .logo img {
     width: 60%;
-    height: 50%;
+    height: 40%;
 }
 
 .tweets li .name_body {
