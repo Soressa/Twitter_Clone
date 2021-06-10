@@ -45,6 +45,7 @@ tweet
 .tweet_form {
     padding: 20px 40px;
     border: none;
+    color: aquamarine;
     text-align: center;
     width: 80%;
     margin: 0 auto;
@@ -90,7 +91,7 @@ tweet
 }
 
 .tweet_form textarea {
-    color: lightblue;
+    background-color: lightblue;
     width: 70%;
     height: 100px;
     margin: 10px;
@@ -106,6 +107,9 @@ tweet
     display: flex;
     border-bottom: 1px solid #ccc;
     padding: 17px;
+    border-top: 1px solid #ccc;
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
 }
 
 .tweets li .logo {
