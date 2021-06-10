@@ -88,11 +88,11 @@ tweet
     margin-bottom: 10px;
     padding: 10px;
     border: none;
-    background-color: rgb(255, 0, 0);
+    background-color: rgb(197, 206, 160);
 }
 
 .tweet_form textarea {
-    background-color: rgb(22, 207, 62);
+    background-color: rgb(207, 22, 182);
     width: 70%;
     height: 100px;
     margin: 10px;
