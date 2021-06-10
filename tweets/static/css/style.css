@@ -45,7 +45,7 @@ tweet
 .tweet_form {
     padding: 20px 40px;
     border: none;
-    color: aquamarine;
+    color: rgb(155, 86, 77);
     text-align: center;
     width: 80%;
     margin: 0 auto;
@@ -77,7 +77,7 @@ tweet
 }
 
 .ditch {
-    background-color: hsl(251, 89%, 50%);
+    background-color: hsl(240, 6%, 91%);
     height: 20px;
     border-top: 1px solid rgb(17, 231, 99);
     border-bottom: 1px solid rgb(231, 40, 129);
@@ -88,6 +88,7 @@ tweet
     margin-bottom: 10px;
     padding: 10px;
     border: none;
+    background-color: orange;
 }
 
 .tweet_form textarea {
