@@ -115,8 +115,9 @@ tweet
 }
 
 .tweets li .logo img {
-    width: 50%;
-    height: 50%;
+    float: left;
+    padding: 10px;
+    display: flex;
 }
 
 .tweets li .name_body {
